@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserProfile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <!-- Style for profile page using css -->
+
+  <style>
+    body {
+      background-color: #4b4b4b;
+    }
+    .he {
+      width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      /* border: 2px solid red; */
+      font-family: arial;
+      font-size: 16px;
+      background-color: rgba(17, 17, 17, 0.663);
+      border-radius: 20px;
+      border-top: 10px solid rgb(90, 249, 62);
+      color: white;
+    }
+    .data {
+      width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      /* border: 2px solid red; */
+      font-family: arial;
+      font-size: 16px;
+      background-color: rgba(13, 12, 12, 0.622);
+      border-radius: 20px;
+      color: white;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      box-sizing: border-box;
+
+      transition: 0.5s;
+      outline: none;
+    }
+    input[type="text"]:focus {
+      border-bottom: 3px solid rgb(187, 180, 180);
+    }
+
+    input[type="email"] {
+      width: 100%;
+      box-sizing: border-box;
+
+      transition: 0.5s;
+      outline: none;
+    }
+    input[type="email"]:focus {
+      border-bottom: 3px solid rgb(187, 180, 180);
+    }
+  </style>
+
+  <!-- end of css -->
+
+  <body>
+    <form>
+      <div class="he">
+        <i class="fa fa-user" style="padding-left: 160px; font-size: 8em"></i>
+        <h3 style="text-align: center">User Profile</h3>
+        <h2 style="text-align: center">LEARNEXT</h2>
+      </div>
+
+      <div class="data">
+        <p>Name<span style="color: red">*</span></p>
+
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+          placeholder="Your answer"
+        />
+
+        <p>Email<span style="color: red">*</span></p>
+
+        <input
+          type="email"
+          name="Email"
+          id="email"
+          required
+          placeholder="Your answer"
+        />
+
+        <p>Phone No<span style="color: red">*</span></p>
+
+        <input
+          type="text"
+          name="phoneno"
+          id="phoneno"
+          required
+          placeholder="Your answer"
+        />
+
+        <p>Gender<span style="color: red">*</span></p>
+        <input
+          type="text"
+          name="gender"
+          id="gender"
+          required
+          placeholder="Your answer"
+        />
+
+        <p>Education Qualification<span style="color: red">*</span></p>
+        <input type="text" id="education" required placeholder="Your answer" />
+
+        <p>Skills<span style="color: red">*</span></p>
+        <input type="text" id="skills" required placeholder="Your answer" />
+
+        <button
+          id="save"
+          style="
+            background-color: #20eb20;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-top: 30px;
+          "
+        >
+          SAVE
+        </button>
+      </div>
+      <br />
+    </form>
+
+
+  </body>
+  <!-- importing firebase documents  -->
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+  <script src="./profilefirebase.js"></script>
+
+  <!-- importing javascript file -->
+  <script src="./profilelogic.js"></script>
+</html>
