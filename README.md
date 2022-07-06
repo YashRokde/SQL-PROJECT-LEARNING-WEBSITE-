@@ -35,6 +35,10 @@ it is stores the data when user buy any course from website
 
 
 ![image](https://user-images.githubusercontent.com/93991127/177533143-f3d8eda9-c3b1-4809-967b-4d852f7c19f5.png)
+animation text which changes from learn,grow,excel and achieve
+![image](https://user-images.githubusercontent.com/93991127/177536466-55f9f5d1-4ece-4806-9ca5-b539e1fb89d1.png)
+
+
 ![image](https://user-images.githubusercontent.com/93991127/177533246-2fde6b83-0603-45bf-91fd-be4976598e6e.png)
 ![image](https://user-images.githubusercontent.com/93991127/177533374-faa9a531-8ca2-4093-b62f-f64fcba401a0.png)
 ![image](https://user-images.githubusercontent.com/93991127/177533488-565e6574-ad30-4eb8-b5a8-50e2908b3c9c.png)
