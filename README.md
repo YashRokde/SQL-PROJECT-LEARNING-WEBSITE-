@@ -33,6 +33,7 @@ it contains the user information like name email skills etc. that is store in re
 checkout.html
 it is stores the data when user buy any course from website 
 
+I've also host the website using firebase
 
 ![image](https://user-images.githubusercontent.com/93991127/177533143-f3d8eda9-c3b1-4809-967b-4d852f7c19f5.png)
 animation text which changes from learn,grow,excel and achieve
@@ -50,3 +51,6 @@ animation text which changes from learn,grow,excel and achieve
 ![image](https://user-images.githubusercontent.com/93991127/177534799-ca9e233e-2b81-4f1e-b1af-c63ba9fb22e3.png)
 ![image](https://user-images.githubusercontent.com/93991127/177535093-a6cf3493-ee1e-4474-afcb-095b41df1d9e.png)
 ![image](https://user-images.githubusercontent.com/93991127/177535202-6660825f-2bd3-4798-9ce5-c2df1e814c97.png)
+website hosted :
+![image](https://user-images.githubusercontent.com/93991127/177537213-dc7f5621-8043-4540-8039-7c6349b50ca9.png)
+
